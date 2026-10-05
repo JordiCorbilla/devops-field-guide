@@ -1,0 +1,19 @@
+# Local/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
